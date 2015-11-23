@@ -1,0 +1,30 @@
+{
+  "title": "Pref jetpack example",
+  "name": "addon-pref-jpm",
+  "version": "0.0.1",
+  "preferences": [{
+    "name": "somePreference",
+    "title": "Some preference title",
+    "description": "Some short description for the preference",
+    "type": "string",
+    "value": "this is the default string value"
+  },
+  {
+    "description": "How many of them we have.",
+    "name": "myInteger",
+    "type": "integer",
+    "value": 8,
+    "title": "How Many?"
+  }],
+  "description": "A basic add-on",
+  "main": "./lib/index.js",
+  "author": "",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
